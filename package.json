@@ -1,0 +1,25 @@
+{
+  "name": "@dscheerens/eslint-config-angular",
+  "version": "0.0.1",
+  "description": "Package containing recommended ESLint configuration for Angular",
+  "homepage": "https://github.com/dscheerens/eslint-config-angular",
+  "author": "Daan Scheerens",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "configuration",
+    "angular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dscheerens/eslint-config-angular.git"
+  },
+  "peerDependencies": {
+    "@angular-eslint/eslint-plugin": "^13.1.0",
+    "@angular-eslint/eslint-plugin-template": "^13.1.0",
+    "@angular-eslint/template-parser": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.10.0"
+  }
+}
