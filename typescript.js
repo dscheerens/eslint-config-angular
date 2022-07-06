@@ -17,6 +17,7 @@ module.exports = {
     'no-compare-neg-zero': 'warn',
     'no-cond-assign': 'warn',
     // 'no-const-assign': 'warn', // Already handled by TypeScript.
+    'no-constant-binary-expression': 'warn',
     'no-constant-condition': 'warn',
     'no-constructor-return': 'warn',
     'no-control-regex': 'warn',
@@ -176,7 +177,7 @@ module.exports = {
     'rest-spread-spacing': 'warn',
     // 'semi': 'warn', // Use @typescript-eslint/semi instead.
     'semi-spacing': 'warn',
-    'space-before-blocks': 'warn', // Use @typescript-eslint/space-before-blocks when available.
+    // 'space-before-blocks': 'warn', // Use @typescript-eslint/space-before-blocks instead.
     // 'space-before-function-paren': ['warn', {
     //   'anonymous': 'never',
     //   'named': 'never',
@@ -201,6 +202,7 @@ module.exports = {
     '@typescript-eslint/brace-style': ['warn', '1tbs', { 'allowSingleLine': true }],
     '@typescript-eslint/comma-dangle': ['warn', 'always-multiline'],
     '@typescript-eslint/comma-spacing': 'warn',
+    '@typescript-eslint/consistent-generic-constructors': 'warn',
     '@typescript-eslint/consistent-type-assertions': ['warn', { 'assertionStyle': 'as', 'objectLiteralTypeAssertions': 'allow-as-parameter' }],
     '@typescript-eslint/consistent-type-definitions': ['warn', 'interface'],
     '@typescript-eslint/default-param-last': ['warn'],
@@ -264,6 +266,7 @@ module.exports = {
       }
     ],
     '@typescript-eslint/no-array-constructor': 'warn',
+    '@typescript-eslint/no-duplicate-enum-values': 'warn',
     '@typescript-eslint/no-duplicate-imports': 'warn',
     '@typescript-eslint/no-dynamic-delete': 'warn',
     '@typescript-eslint/no-explicit-any': 'warn',
@@ -278,6 +281,7 @@ module.exports = {
     '@typescript-eslint/no-namespace': 'warn',
     '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'warn',
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'warn',
+    '@typescript-eslint/no-redundant-type-constituents': 'warn',
     '@typescript-eslint/no-shadow': 'warn',
     '@typescript-eslint/no-throw-literal': 'warn',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'warn',
@@ -293,9 +297,9 @@ module.exports = {
     '@typescript-eslint/no-unused-expressions': 'warn',
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-useless-constructor': 'warn',
-    // '@typescript-eslint/no-useless-empty-export': 'warn', // Not yet released.
+    '@typescript-eslint/no-useless-empty-export': 'warn',
     '@typescript-eslint/non-nullable-type-assertion-style': 'warn',
-    '@typescript-eslint/object-curly-spacing': ['warn', 'always', { 'objectsInObjects': false }],
+    '@typescript-eslint/object-curly-spacing': ['warn', 'always'],
     '@typescript-eslint/padding-line-between-statements': [
       'warn',
       { 'blankLine': 'always', 'prev': '*', 'next': 'return' }
@@ -313,7 +317,7 @@ module.exports = {
     '@typescript-eslint/require-await': 'warn',
     '@typescript-eslint/return-await': 'warn',
     '@typescript-eslint/semi': 'warn',
-    // '@typescript-eslint/space-before-blocks': 'warn' // Not yet released.
+    '@typescript-eslint/space-before-blocks': 'warn',
     '@typescript-eslint/space-before-function-paren': ['warn', {
       'anonymous': 'never',
       'named': 'never',

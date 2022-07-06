@@ -18,7 +18,7 @@ First, make sure you have the following dev dependencies installed:
 You can install them all at once using the following command:
 
 ```shell
-npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @angular-eslint/builder @angular-eslint/eslint-plugin @angular-eslint/eslint-plugin-template @angular-eslint/template-parser
+npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @angular-eslint/eslint-plugin @angular-eslint/eslint-plugin-template @angular-eslint/template-parser
 ```
 
 Next, install this package:
