@@ -1,6 +1,6 @@
 {
   "name": "@dscheerens/eslint-config-angular",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Package containing recommended ESLint configuration for Angular",
   "homepage": "https://github.com/dscheerens/eslint-config-angular",
   "author": "Daan Scheerens",
