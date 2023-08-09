@@ -44,6 +44,10 @@ Below you can find an example `.eslintrc.json` file that makes use of this packa
       "extends": ["@dscheerens/eslint-config-angular/typescript"]
     },
     {
+      "files": ["*.spec.ts"],
+      "extends": ["@dscheerens/eslint-config-angular/spec"]
+    },
+    {
       "files": ["*.html"],
       "extends": ["@dscheerens/eslint-config-angular/html"]
     }

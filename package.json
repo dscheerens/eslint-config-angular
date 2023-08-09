@@ -15,11 +15,11 @@
     "url": "https://github.com/dscheerens/eslint-config-angular.git"
   },
   "peerDependencies": {
-    "@angular-eslint/eslint-plugin": "^14.0.2",
-    "@angular-eslint/eslint-plugin-template": "^14.0.2",
-    "@angular-eslint/template-parser": "^14.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
-    "eslint": "^8.20.0"
+    "@angular-eslint/eslint-plugin": "^16.1.0",
+    "@angular-eslint/eslint-plugin-template": "^16.1.0",
+    "@angular-eslint/template-parser": "^16.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.46.0"
   }
 }
